@@ -1,2 +1,2 @@
-# damdev_devcontainer_template_base
+# damdev devcontainer template base
 DAM Dev - Devcontainer Base Template
