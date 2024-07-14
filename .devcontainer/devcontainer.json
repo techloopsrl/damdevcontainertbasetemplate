@@ -1,0 +1,14 @@
+{
+  "name": "DAMDev Base Template",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/gh-cli:1": {},
+    "ghcr.io/devcontainers-contrib/features/vscode-cli:1": {},
+    "ghcr.io/devcontainers/feature-starter/hello:1": {
+       "greeting": "Hello"
+    }
+  }
+}
